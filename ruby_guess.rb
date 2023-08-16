@@ -1,3 +1,10 @@
+  
+
+
+
+
+
+
   score_name = {}
   
   loop do
@@ -35,8 +42,8 @@
     puts "SCOREBOARD"
     puts score_name.class
   
-    puts "high score" 
-    score_name.each do |player_name,tries|
+    puts "HIGHSCORE" 
+    score_name.sort_by {|player_name,tries|}.each do |player_name,tries|
     puts "#{player_name}: - #{tries}"
   end
     puts "do you want to play again?"
