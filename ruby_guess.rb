@@ -4,7 +4,7 @@
   # how many times need to run.variable (counter)
   chances = 6
   # at what number you want it to stop
-  guesses = [] #222
+  guesses = [] #third commit testing
 
 
   while tries <= chances
