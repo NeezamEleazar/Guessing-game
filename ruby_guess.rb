@@ -1,5 +1,11 @@
   @score_name = {}
 
+def game_difficulty()
+puts "Choose your difficulty"
+puts"Easy - Medium - Hard"
+@decided_difficulty = gets.chomp
+end
+
   def name_player()
   puts "Welcome,Enter you name"
   @player_name = gets.chomp 
@@ -56,7 +62,7 @@ end
 
 def run_game()
   loop do
-
+    game_difficulty()
     name_player()
     game_value_number()
     game_value()
