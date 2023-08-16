@@ -4,7 +4,7 @@
   # how many times need to run.variable (counter)
   chances = 6
   # at what number you want it to stop
-  guesses = []
+  guesses = [] #222
 
 
   while tries <= chances
@@ -28,6 +28,7 @@
  end
    
  #+= is multiply the number ? 
+
  
  
 
